@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: rgb(156, 111, 81); */
+}
+.container {
+  background-color: rgb(156, 111, 81);
+  display: flex;
+}
+
+P {
+  border: 5px black;
+  padding: 5px;
+  background-color: #80441c;
+  border-radius: 30%;
+  font-family: "Times New Roman", Times, serif;
+}
+.name {
+  margin-top: 8%;
+  margin-left: 7%;
+  font-size: x-large;
+}
+.photo {
+  margin-left: 400px;
+  /* display: flex; */
+  width: 350px;
+  height: 666px;
+  margin-top: -3%;
+}
+
+.photo:hover {
+  /*Наведите мышкой на фотку */
+  box-shadow: 1px 1px #1b1b1b, 2px 2px #1b1b1b, 3px 3px #1b1b1b;
+}
+.container-down {
+  border: 6px double black;
+  display: flex;
+  background-color: #80441c;
+}
+.autobiography {
+  background-color: #80441c;
+  opacity: 0.5;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: larger;
+  margin-left: 10%;
+}
+.autobiography:hover {
+  /*Наведите на текст*/
+  opacity: 1;
+}
